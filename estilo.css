@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo{
+    background-color:#604829;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.topo img{
+    height: 80px;
+    display: inline-block;
+}
+
+.topo p{
+    text-align: right;  
+    display: inline-block;  
+}
+
+.topo a{
+    margin-right: 10px;
+    font-family: 'oswald';
+    text-decoration: none;
+    color: #c4a47c;
+}
+
+#banner{
+    background-image: url("img/parallax-imagem1.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner h1{
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-family: 'Fraunces';
+    font-size: 80px;
+    padding-top: 40vh;
+}
+
