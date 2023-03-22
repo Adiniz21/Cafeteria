@@ -1,34 +1,36 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.topo{
-    background-color:#604829;
+.topo {
+    background-color: #604829;
     width: 100%;
     position: fixed;
     z-index: 1;
 }
 
-.topo img{
-    height: 80px;
-    display: inline-block;
+.topo img {
+    width: 80px;
+    position: relative;
+    left: 10%;
 }
 
-.topo p{
-    text-align: right;  
-    display: inline-block;  
+.topo p {
+    position: absolute;
+    top: 30%;
+    right: 10%;
 }
 
-.topo a{
+.topo a {
     margin-right: 10px;
     font-family: 'oswald';
     text-decoration: none;
     color: #c4a47c;
 }
 
-#banner{
+#banner {
     background-image: url("img/parallax-imagem1.png");
     height: 100vh;
     background-position: center;
@@ -36,12 +38,62 @@ body{
     background-attachment: fixed;
 }
 
-#banner h1{
+#banner h1 {
     text-align: center;
     margin: auto;
     color: #fff;
     font-family: 'Fraunces';
     font-size: 80px;
     padding-top: 40vh;
+}
+
+.texto{
+    padding: 2% 25% 5% 25%;
+}
+
+.texto h2{
+    color: #c4a47c;
+    text-align: center;
+    font-family: 'oswald';
+}
+
+.texto p{
+    font-family: 'lato';
+    line-height: 30px;
+    text-align: center;
+    color: #666;
+}
+
+.imagem1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/parallax-imagem2.jpg");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/parallax-imagem3.jpg");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem-heading{
+    padding: 10px 15px;
+    width: max-content;
+    text-align: center;
+    background-color: #604829;
+    color: #fff;
+    font-size: 22px;
 }
 
