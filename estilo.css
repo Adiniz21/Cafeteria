@@ -97,3 +97,57 @@ body {
     font-size: 22px;
 }
 
+#contatos{
+    background-image: url("img/parallax-imagem4.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contatos h2{
+    padding: 10px 15px;
+    width: max-content;
+    background-color: #604829;
+    color: #fff;
+}
+
+#contatos iframe{
+    height: 40vh;
+}
+
+#contatos .box-contatos{
+    margin: 20px 0px;
+    padding: 10px 15px;
+    width: max-content;
+    background-color: #604829;
+    color: #fff;
+}
+
+#horarios{
+    background-image: url("img/cafeteria.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.rodape{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 10px 0px;
+    
+}
+.rodape .seta{
+    width: 15px;
+    height: 60px;
+    position: absolute;
+    right: 60px;
+    bottom: 80px;
+}
