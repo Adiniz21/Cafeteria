@@ -136,6 +136,44 @@ body {
     background-attachment: fixed;
 }
 
+#horarios h2{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20vh 15px;
+}
+
+.lista li { /* itens da lista */
+    position: relative;
+}
+.lista span{
+    color:#c4a47c;
+}
+
+.lista h3{
+    color: #fff;
+    position: absolute;
+    left: 5vw;
+}
+
+.lista li div { /* tarja */
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    left: 10vw;
+    bottom: 50%;
+    background-color: #acacac
+}
+
+.lista li p { /* parágrafos */
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    right: 10vw;
+}
+
 .rodape{
     background-color: #000000;
     color: #fff;
